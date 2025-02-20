@@ -903,7 +903,7 @@ padding: 0px 20px;
 .footer-ul span {
     color: var(--grey60);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
 
 
 }
@@ -934,7 +934,7 @@ padding: 0px 20px;
     justify-content: space-evenly;
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     /* justify-content: space-evenly; */
-    gap: 60px;
+    gap: 10px;
     /* columns: 5; */
     /* padding: 20px 0; */
     /* flex-wrap: wrap; */
