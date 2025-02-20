@@ -1,0 +1,27 @@
+:root {
+    --Absolute__White: #ffffff;
+    --Absolute__Black: #000000;
+
+    --Purple__60: #703bf7;
+    --Purple__65: #8254f8;
+    --Purple__70: #946cf9;
+    --Purple__75: #a685fa;
+    --Purple__90: #dbcefd;
+    --Purple__95: #ede7fe;
+    --Purple__97: #f4f0fe;
+    --Purple__99: #fbfaff;
+
+    --White__90: #e4e4e7;
+    --White__95: #f1f1f3;
+    --White__97: #f7f7f8;
+    --White__99: #fcfcfd;
+    
+    --Grey__08: #141414;
+    --Grey__10: #1a1a1a;
+    --Grey__15: #262626;
+    --Grey__20: #333333;
+    --Grey__30: #4d4d4d;
+    --Grey__40: #666666;
+    --Grey__50: #808080;
+    --Grey__60: #999999;
+}

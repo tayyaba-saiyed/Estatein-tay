@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <!-- swiper slides -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <!-- top bar -->
+        <div class="top-bar" id="cancelTopBar">
+            <p>✨Discover Your Dream Property with Estatein <a href="#">Learn More</a></p>
+            <button class="icon-btn" onclick="handleTopBar()"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 24 24" stroke-width="1.5" width="18px" height="18px" stroke="currentColor"
+                    class="cancel-btn cross-btn size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg></button>
+        </div>
+
+        <!-- navbar -->
+        <nav>
+            <div class="container">
+                <div class="icon">
+                    <img src="assets/images/Symbol.png" alt="estatein logo">
+                    <p>Estatein</p>
+                </div>
+                <div class="collapes" id="collapesId">
+                    <ul class="nav-ul">
+                        <li>Home</li>
+                        <div class="banner">
+                            <a href="#" class='butn butn__new about-us'><span>About Us</span></a>
+                        </div>
+                        <li>Properties</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="banner">
+                    <a href="#" class='butn butn__new'><span>Contact Us</span></a>
+                </div>
+
+                <button class="toggle-btn" onclick="handleToggleBtn()">
+                    <svg width="30" height="30" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.5 7.875C3.5 7.39175 3.89175 7 4.375 7H23.625C24.1082 7 24.5 7.39175 24.5 7.875C24.5 8.35825 24.1082 8.75 23.625 8.75H4.375C3.89175 8.75 3.5 8.35825 3.5 7.875ZM3.5 14C3.5 13.5168 3.89175 13.125 4.375 13.125H23.625C24.1082 13.125 24.5 13.5168 24.5 14C24.5 14.4832 24.1082 14.875 23.625 14.875H4.375C3.89175 14.875 3.5 14.4832 3.5 14ZM13.125 20.125C13.125 19.6418 13.5168 19.25 14 19.25H23.625C24.1082 19.25 24.5 19.6418 24.5 20.125C24.5 20.6082 24.1082 21 23.625 21H14C13.5168 21 13.125 20.6082 13.125 20.125Z"
+                            fill="white" />
+                    </svg>
+
+                </button>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner -->
+        <!-- section-1 -->
+        <section>
+            <div class="banner-wrapper">
+                <div class="banner-content">
+                    <img src="assets/images/abstract-star.png" alt="abstract star">
+                    <div class="title">
+                        <h2>Our Journey</h2>
+                        <span>Our story is one of continuous growth and evolution. We started as a small team with big
+                            dreams, determined to create a real estate platform that transcended the ordinary. Over the
+                            years, we've expanded our reach, forged valuable partnerships, and gained the trust of
+                            countless clients.</span>
+                    </div>
+                    <div class="box-group">
+                        <div class="client">
+                            <h2>200+</h2>
+                            <span>Happy Customers</span>
+                        </div>
+                        <div class="client">
+                            <h2>10K+</h2>
+                            <span>Properties For Clients</span>
+                        </div>
+                        <div class="client">
+                            <h2>16+</h2>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-image">
+                    <img src="assets/images/houseinhand.png" alt="house in hand">
+                </div>
+            </div>
+        </section>
+        <!-- our values  -->
+        <!-- section 2 -->
+        <section>
+            <div class="value-wrapper-banner">
+                <div class="value-content">
+                    <img src="assets/images/abstract-star.png" alt="abstract star">
+                    <h2>Our Values</h2>
+                    <span>Our story is one of continuous growth and evolution. We started as a small team with big
+                        dreams, determined to create a real estate platform that transcended the ordinary.</span>
+                </div>
+
+                <div class="value-trust-wrapper">
+                    <div class="trust-combain">
+                        <div class="trust">
+                            <div class="trust-icon">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" fill="#141414" />
+                                    <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#703BF7" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M28.5862 19.7458C29.1093 18.4882 30.8908 18.4882 31.4139 19.7458L33.8429 25.5858L40.1477 26.0913C41.5053 26.2001 42.0559 27.8944 41.0215 28.7805L36.2179 32.8953L37.6854 39.0477C38.0015 40.3726 36.5602 41.4197 35.3978 40.7098L30.0001 37.4128L24.6023 40.7098C23.4399 41.4197 21.9986 40.3726 22.3147 39.0477L23.7822 32.8953L18.9787 28.7805C17.9442 27.8945 18.4948 26.2001 19.8525 26.0913L26.1572 25.5858L28.5862 19.7458Z"
+                                        fill="#A685FA" />
+                                </svg>
+                                <h4>Trust</h4>
+                            </div>
+                            <span>Trust is the cornerstone of every successful real estate transaction.</span>
+                        </div>
+                        <div class="excellence">
+                            <div class="trust-icon">
+                                <svg width="60" height="60" viewBox="0 0 75 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="0.5" width="73" height="73" rx="36.5" fill="#141414" />
+                                    <rect x="1" y="0.5" width="73" height="73" rx="36.5" stroke="#703BF7" />
+                                    <path
+                                        d="M37.0751 23.9742C37.3463 23.8557 37.6546 23.8557 37.9259 23.9742C43.1942 26.276 48.1873 29.0899 52.8422 32.3527C53.1791 32.5888 53.3494 32.9982 53.2793 33.4036C53.2093 33.809 52.9116 34.1375 52.515 34.247C51.5447 34.5148 50.5828 34.8032 49.6296 35.1107C45.7606 36.3584 42.0362 37.9284 38.488 39.7891L38.4834 39.7915C38.3225 39.8759 38.162 39.9609 38.0018 40.0464C37.689 40.2136 37.3133 40.2136 37.0004 40.0464C36.8387 39.9601 36.6767 39.8743 36.5142 39.7891C34.7598 38.8691 32.9622 38.0201 31.1254 37.246V36.9291C31.1254 36.743 31.2209 36.5779 31.3687 36.4884C33.5009 35.1966 35.7003 34.0047 37.9604 32.9191C38.4893 32.665 38.7122 32.0303 38.4581 31.5013C38.204 30.9724 37.5693 30.7495 37.0403 31.0036C34.7181 32.1191 32.4582 33.3437 30.2676 34.6709C29.6253 35.06 29.1935 35.6969 29.0515 36.4103C27.8403 35.9445 26.6133 35.5105 25.3713 35.11C24.4181 34.8026 23.4562 34.5148 22.4859 34.2469C22.0893 34.1375 21.7916 33.8089 21.7216 33.4036C21.6516 32.9982 21.8219 32.5888 22.1587 32.3527C26.8137 29.0898 31.8067 26.276 37.0751 23.9742Z"
+                                        fill="#A685FA" />
+                                    <path
+                                        d="M39.0033 41.9207C42.4583 40.0746 46.0883 38.514 49.8619 37.27C50.0521 39.2743 50.1735 41.2985 50.2238 43.3403C50.2346 43.7783 49.9754 44.1781 49.571 44.3469C45.5319 46.0333 41.69 48.0982 38.0896 50.4975C37.7328 50.7353 37.268 50.7353 36.9112 50.4975C33.3108 48.0982 29.4689 46.0333 25.4298 44.3469C25.0254 44.1781 24.7662 43.7783 24.777 43.3403C24.8273 41.2984 24.9487 39.274 25.1389 37.2695C26.4437 37.6996 27.7312 38.1676 29.0004 38.6721V40.4718C28.3652 40.8392 27.9379 41.5259 27.9379 42.3125C27.9379 43.0142 28.278 43.6365 28.8023 44.0234C28.6755 44.5627 28.4879 45.0903 28.2393 45.5956C28.8806 45.8983 29.5164 46.2107 30.1466 46.5327C30.5055 45.8027 30.7657 45.0366 30.9272 44.2543C31.6701 43.9232 32.1879 43.1783 32.1879 42.3125C32.1879 41.5259 31.7605 40.8392 31.1254 40.4718V39.5584C32.7848 40.2834 34.4104 41.0719 35.999 41.9207C36.9376 42.4222 38.0646 42.4222 39.0033 41.9207Z"
+                                        fill="#A685FA" />
+                                    <path
+                                        d="M26.8218 47.5716C27.4156 46.9778 27.8883 46.309 28.2393 45.5956C28.8806 45.8983 29.5164 46.2107 30.1466 46.5327C29.6953 47.4505 29.0877 48.3109 28.3245 49.0742C27.9095 49.4891 27.2368 49.4891 26.8218 49.0742C26.4069 48.6593 26.4069 47.9865 26.8218 47.5716Z"
+                                        fill="#A685FA" />
+                                </svg>
+
+                                <h4>Excellence</h4>
+                            </div>
+                            <span>Trust is the cornerstone of every successful real estate transaction.</span>
+                        </div>
+                    </div>
+
+                    <div class="trust-combain">
+                        <div class="trust">
+                            <div class="trust-icon">
+                                <svg width="60" height="60" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="0.5" width="73" height="73" rx="36.5" fill="#141414" />
+                                    <rect x="0.5" y="0.5" width="73" height="73" rx="36.5" stroke="#703BF7" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M31.6875 29.5625C31.6875 26.6285 34.066 24.25 37 24.25C39.934 24.25 42.3125 26.6285 42.3125 29.5625C42.3125 32.4965 39.934 34.875 37 34.875C34.066 34.875 31.6875 32.4965 31.6875 29.5625Z"
+                                        fill="#A685FA" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M42.3125 33.8125C42.3125 31.4653 44.2153 29.5625 46.5625 29.5625C48.9097 29.5625 50.8125 31.4653 50.8125 33.8125C50.8125 36.1597 48.9097 38.0625 46.5625 38.0625C44.2153 38.0625 42.3125 36.1597 42.3125 33.8125Z"
+                                        fill="#A685FA" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M23.1875 33.8125C23.1875 31.4653 25.0903 29.5625 27.4375 29.5625C29.7847 29.5625 31.6875 31.4653 31.6875 33.8125C31.6875 36.1597 29.7847 38.0625 27.4375 38.0625C25.0903 38.0625 23.1875 36.1597 23.1875 33.8125Z"
+                                        fill="#A685FA" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M28.939 41.4165C30.6361 38.7629 33.6118 37 37 37C40.3886 37 43.3646 38.7633 45.0617 41.4175C46.2349 43.2524 46.7425 45.4649 46.5044 47.6221C46.4672 47.9592 46.2712 48.2583 45.9771 48.4271C43.3317 49.945 40.2655 50.8125 37 50.8125C33.7345 50.8125 30.6683 49.945 28.0229 48.4271C27.7288 48.2583 27.5328 47.9592 27.4956 47.6221C27.2575 45.4645 27.7653 43.2516 28.939 41.4165Z"
+                                        fill="#A685FA" />
+                                    <path
+                                        d="M27.1999 40.1927C27.1828 40.2189 27.1659 40.2452 27.149 40.2716C25.7813 42.4101 25.1554 44.957 25.3475 47.4678C24.4861 47.3369 23.6503 47.1265 22.8481 46.8439L22.6852 46.7866C22.3882 46.682 22.1806 46.4122 22.1556 46.0982L22.1419 45.9261C22.1307 45.7853 22.125 45.6432 22.125 45.5C22.125 42.6456 24.3761 40.317 27.1999 40.1927Z"
+                                        fill="#A685FA" />
+                                    <path
+                                        d="M48.653 47.4677C48.8451 44.9574 48.2195 42.4111 46.8522 40.2728C46.8351 40.246 46.8179 40.2193 46.8006 40.1927C49.6241 40.3173 51.875 42.6458 51.875 45.5C51.875 45.6432 51.8693 45.7853 51.8581 45.9261L51.8444 46.0982C51.8194 46.4122 51.6118 46.682 51.3148 46.7866L51.1519 46.8439C50.3498 47.1264 49.5142 47.3368 48.653 47.4677Z"
+                                        fill="#A685FA" />
+                                </svg>
+
+                                <h4>Client-Centric</h4>
+                            </div>
+                            <span>Trust is the cornerstone of every successful real estate transaction.</span>
+                        </div>
+                        <div class="excellence">
+                            <div class="trust-icon">
+                                <svg width="60" height="60" viewBox="0 0 75 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="0.5" width="73" height="73" rx="36.5" fill="#141414" />
+                                    <rect x="1" y="0.5" width="73" height="73" rx="36.5" stroke="#703BF7" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M35.7835 24.5485C36.4187 23.0214 38.582 23.0214 39.2171 24.5485L42.1666 31.6399L49.8224 32.2537C51.471 32.3858 52.1395 34.4432 50.8835 35.5192L45.0506 40.5157L46.8326 47.9865C47.2164 49.5952 45.4662 50.8668 44.0548 50.0047L37.5003 46.0013L30.9459 50.0047C29.5345 50.8668 27.7843 49.5952 28.1681 47.9865L29.9501 40.5157L24.1172 35.5192C22.8611 34.4432 23.5296 32.3858 25.1783 32.2537L32.8341 31.6399L35.7835 24.5485Z"
+                                        fill="#A685FA" />
+                                </svg>
+
+                                <h4>Our Commitment</h4>
+                            </div>
+                            <span>Trust is the cornerstone of every successful real estate transaction.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- our achivements  -->
+        <!-- section-3  -->
+        <section>
+            <div class="achivement-banner">
+                <img src="assets/images/abstract-star.png" alt="abstract star">
+                <h2>Our Achievements</h2>
+                <span>Our story is one of continuous growth and evolution. We started as a small team with big dreams,
+                    determined to create a real estate platform that transcended the ordinary.</span>
+            </div>
+            <div class="achivement-boxes-grp">
+                <div class="achivement-box">
+                    <h2>3+ Years of Excellence</h2>
+                    <span>With over 3 years in the industry, we've amassed a wealth of knowledge and experience,
+                        becoming a go-to resource for all things real estate.</span>
+                </div>
+                <div class="achivement-box">
+                    <h2>Happy Clients</h2>
+                    <span>Our greatest achievement is the satisfaction of our clients. Their success stories fuel our
+                        passion for what we do.</span>
+                </div>
+                <div class="achivement-box">
+                    <h2>Industry Recognition</h2>
+                    <span>We've earned the respect of our peers and industry leaders, with accolades and awards that
+                        reflect our commitment to excellence.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigating the Estatein Experience -->
+        <!-- section 4 -->
+        <section>
+            <div class="navigation-banner">
+                <img src="assets/images/abstract-star.png" alt="abstract star">
+                <h2>Navigating the Estatein Experience</h2>
+                <span>At Estatein, we've designed a straightforward process to help you find and purchase your dream
+                    property with ease. Here's a step-by-step guide to how it all works.</span>
+            </div>
+            <div class="navigation-content">
+                <!-- <div class="steps">
+                    <h4>Step-1</h4>
+                </div> -->
+                <!-- <div class="steps-content-grp">
+                    <div class="steps-content">
+                        <h2>Discover a World of Possibilities</h2>
+                        <span>Your journey begins with exploring our carefully curated property listings. Use our
+                            intuitive
+                            search tools to filter properties based on your preferences, including location, type, size,
+                            and
+                            budget.</span>
+                        </div>
+                        <div class="steps-content">
+                            <h2>Discover a World of Possibilities</h2>
+                            <span>Your journey begins with exploring our carefully curated property listings. Use our
+                                intuitive
+                                search tools to filter properties based on your preferences, including location, type,
+                                size, and
+                                budget.</span>
+                        </div>
+                        <div class="steps-content">
+                            <h2>Discover a World of Possibilities</h2>
+                            <span>Your journey begins with exploring our carefully curated property listings. Use our
+                                intuitive
+                                search tools to filter properties based on your preferences, including location, type,
+                                size, and
+                                budget.</span>
+                        </div>
+
+
+                  
+
+                </div> -->
+                <div class="steps-content-grp">
+                    <div class="steps-content">
+                        <div class="steps">
+                            <h3>steps-1</h3>
+                        </div>
+                        <div class="discover-content-border">
+                            <h2>Discover a World of Possibilities</h2>
+                            <span>Your journey begins with exploring our carefully curated property listings. Use our
+                                intuitive search tools to filter properties based on your preferences, including
+                                location,
+                                type, size, and budget.</span>
+                        </div>
+                    </div>
+
+                    <div class="steps-content">
+                        <div class="steps">
+                            <h3>steps-2</h3>
+                        </div>
+                        <div class="discover-content-border">
+                            <h2>Narrowing Down Your Choices</h2>
+                            <span>Once you've found propertie5s that catch your eye, save them to your account or make a
+                                shortlist. This allows you to compare and revisit your favorites as you make your
+                                decision.</span>
+                        </div>
+                    </div>
+
+                    <div class="steps-content">
+                        <div class="steps">
+                            <h3>steps-3</h3>
+                        </div>
+                        <div class="discover-content-border">
+                            <h2>Personalized Guidance</h2>
+                            <span>Have questions about a property or need more information? Our dedicated team of real
+                                estate experts is just a call or message away.</span>
+                        </div>
+                    </div>
+
+                    <div class="steps-content">
+                        <div class="steps">
+                            <h3>steps-4</h3>
+                        </div>
+                        <div class="discover-content-border">
+                            <h2>See It for Yourself</h2>
+                            <span>Arrange viewings of the properties you're interested in. We'll coordinate with the
+                                property owners and accompany you to ensure you get a firsthand look at your potential
+                                new home.</span>
+                        </div>
+                    </div>
+
+                    <div class="steps-content">
+                        <div class="steps">
+                            <h3>steps-5</h3>
+                        </div>
+                        <div class="discover-content-border">
+                            <h2>Making Informed Decisions</h2>
+                            <span>Before making an offer, our team will assist you with due diligence, including
+                                property inspections, legal checks, and market analysis. We want you to be fully
+                                informed and confident in your choice.</span>
+                        </div>
+                    </div>
+
+                    <div class="steps-content">
+                        <div class="steps">
+                            <h3>steps-6</h3>
+                        </div>
+                        <div class="discover-content-border">
+                            <h2>Getting the Best Deal</h2>
+                            <span>We'll help you negotiate the best terms and prepare your offer. Our goal is to secure
+                                the property at the right price and on favorable terms.</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- section-5  -->
+        <!-- meet the team -->
+
+        <section>
+            <div class="founding-team-banner">
+                <img src="assets/images/abstract-star.png" alt="abstract star">
+                <h2>MeetThe Estatein Team</h2>
+                <span>At Estatein, our success is driven by the dedication and expertise of our team. Get to know the
+                    people behind our mission to make your real estate dreams a reality.</span>
+            </div>
+
+
+            <div class="founding-members">
+                <!-- Max Mitchell -->
+                <div class="founding-emp-1">
+                    <div class="founding-img">
+                        <img src="assets/images/emp1.png" alt="founding member 1">
+                        <svg width="60" height="40" viewBox="0 0 76 52" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-logo">
+                            <rect width="76" height="52" rx="26" fill="#703BF7" />
+                            <path
+                                d="M33.5502 35.75C42.6045 35.75 47.5583 28.2467 47.5583 21.7419C47.5583 21.5309 47.5536 21.3153 47.5442 21.1044C48.5079 20.4075 49.3395 19.5443 50 18.5553C49.1025 18.9546 48.1496 19.2154 47.1739 19.3287C48.2013 18.7129 48.9705 17.7455 49.3391 16.6058C48.3726 17.1786 47.3156 17.5826 46.2134 17.8006C45.4708 17.0116 44.489 16.4891 43.4197 16.3141C42.3504 16.139 41.2532 16.3211 40.2977 16.8321C39.3423 17.3431 38.5818 18.1547 38.1338 19.1413C37.6859 20.1279 37.5754 21.2346 37.8195 22.2903C35.8625 22.1921 33.9479 21.6837 32.2 20.7981C30.452 19.9125 28.9097 18.6694 27.673 17.1495C27.0444 18.2332 26.8521 19.5156 27.135 20.7361C27.418 21.9565 28.1551 23.0234 29.1964 23.72C28.4146 23.6952 27.65 23.4847 26.9656 23.1059V23.1669C26.9649 24.3041 27.3581 25.4066 28.0783 26.2868C28.7985 27.167 29.8013 27.7706 30.9162 27.995C30.1921 28.1931 29.432 28.222 28.6948 28.0794C29.0095 29.0574 29.6216 29.9129 30.4458 30.5263C31.27 31.1398 32.2651 31.4806 33.2923 31.5012C31.5484 32.8711 29.3942 33.6141 27.1766 33.6106C26.7833 33.61 26.3904 33.5859 26 33.5384C28.2529 34.9837 30.8735 35.7514 33.5502 35.75Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="founding-member-info">
+                        <h3>Max Mitchell</h3>
+                        <span>Founder</span>
+                    </div>
+                    <button>Say Hello 👋 <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="18" fill="#703BF7" />
+                                <path
+                                    d="M25.8565 10.1485C25.4398 9.72271 24.8232 9.56521 24.2482 9.73187L10.8398 13.606C10.2332 13.7744 9.80318 14.2552 9.68734 14.8652C9.56901 15.4869 9.98234 16.2769 10.5223 16.6069L14.7148 19.1669C15.1448 19.4302 15.6998 19.3644 16.0557 19.0077L20.8565 14.2069C21.0982 13.956 21.4982 13.956 21.7398 14.2069C21.9815 14.4477 21.9815 14.8402 21.7398 15.0902L16.9307 19.891C16.574 20.2477 16.5073 20.801 16.7698 21.2319L19.3315 25.4402C19.6315 25.9394 20.1482 26.2235 20.7148 26.2235C20.7815 26.2235 20.8565 26.2235 20.9232 26.2144C21.5732 26.1319 22.0898 25.6894 22.2815 25.0644L26.2565 11.7569C26.4315 11.1902 26.2732 10.5735 25.8565 10.1485Z"
+                                    fill="white" />
+                                <path opacity="0.4"
+                                    d="M15.877 23.9519C16.1203 24.196 16.1203 24.5919 15.877 24.836L14.7386 25.9735C14.617 26.096 14.457 26.1569 14.297 26.1569C14.137 26.1569 13.977 26.096 13.8553 25.9735C13.6111 25.7294 13.6111 25.3344 13.8553 25.0902L14.9928 23.9519C15.237 23.7085 15.6328 23.7085 15.877 23.9519ZM15.2239 20.7952C15.4672 21.0394 15.4672 21.4352 15.2239 21.6794L14.0856 22.8169C13.9639 22.9394 13.8039 23.0002 13.6439 23.0002C13.4839 23.0002 13.3239 22.9394 13.2022 22.8169C12.9581 22.5727 12.9581 22.1777 13.2022 21.9335L14.3397 20.7952C14.5839 20.5519 14.9797 20.5519 15.2239 20.7952ZM12.0896 19.8015C12.3329 20.0457 12.3329 20.4415 12.0896 20.6857L10.9512 21.8232C10.8296 21.9457 10.6696 22.0065 10.5096 22.0065C10.3496 22.0065 10.1896 21.9457 10.0679 21.8232C9.82372 21.579 9.82372 21.184 10.0679 20.9399L11.2054 19.8015C11.4496 19.5582 11.8454 19.5582 12.0896 19.8015Z"
+                                    fill="white" />
+                            </svg>
+                        </span></button>
+
+                </div>
+                <!--Sarah Johnson  -->
+                <div class="founding-emp-1">
+                    <div class="founding-img">
+                        <img src="assets/images/emp2.png" alt="founding member 1">
+                        <svg width="60" height="40" viewBox="0 0 76 52" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-logo">
+                            <rect width="76" height="52" rx="26" fill="#703BF7" />
+                            <path
+                                d="M33.5502 35.75C42.6045 35.75 47.5583 28.2467 47.5583 21.7419C47.5583 21.5309 47.5536 21.3153 47.5442 21.1044C48.5079 20.4075 49.3395 19.5443 50 18.5553C49.1025 18.9546 48.1496 19.2154 47.1739 19.3287C48.2013 18.7129 48.9705 17.7455 49.3391 16.6058C48.3726 17.1786 47.3156 17.5826 46.2134 17.8006C45.4708 17.0116 44.489 16.4891 43.4197 16.3141C42.3504 16.139 41.2532 16.3211 40.2977 16.8321C39.3423 17.3431 38.5818 18.1547 38.1338 19.1413C37.6859 20.1279 37.5754 21.2346 37.8195 22.2903C35.8625 22.1921 33.9479 21.6837 32.2 20.7981C30.452 19.9125 28.9097 18.6694 27.673 17.1495C27.0444 18.2332 26.8521 19.5156 27.135 20.7361C27.418 21.9565 28.1551 23.0234 29.1964 23.72C28.4146 23.6952 27.65 23.4847 26.9656 23.1059V23.1669C26.9649 24.3041 27.3581 25.4066 28.0783 26.2868C28.7985 27.167 29.8013 27.7706 30.9162 27.995C30.1921 28.1931 29.432 28.222 28.6948 28.0794C29.0095 29.0574 29.6216 29.9129 30.4458 30.5263C31.27 31.1398 32.2651 31.4806 33.2923 31.5012C31.5484 32.8711 29.3942 33.6141 27.1766 33.6106C26.7833 33.61 26.3904 33.5859 26 33.5384C28.2529 34.9837 30.8735 35.7514 33.5502 35.75Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="founding-member-info">
+                        <h3>Sarah Johnson</h3>
+                        <span>Chief Real Estate Officer</span>
+                    </div>
+                    <button>Say Hello 👋 <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="18" fill="#703BF7" />
+                                <path
+                                    d="M25.8565 10.1485C25.4398 9.72271 24.8232 9.56521 24.2482 9.73187L10.8398 13.606C10.2332 13.7744 9.80318 14.2552 9.68734 14.8652C9.56901 15.4869 9.98234 16.2769 10.5223 16.6069L14.7148 19.1669C15.1448 19.4302 15.6998 19.3644 16.0557 19.0077L20.8565 14.2069C21.0982 13.956 21.4982 13.956 21.7398 14.2069C21.9815 14.4477 21.9815 14.8402 21.7398 15.0902L16.9307 19.891C16.574 20.2477 16.5073 20.801 16.7698 21.2319L19.3315 25.4402C19.6315 25.9394 20.1482 26.2235 20.7148 26.2235C20.7815 26.2235 20.8565 26.2235 20.9232 26.2144C21.5732 26.1319 22.0898 25.6894 22.2815 25.0644L26.2565 11.7569C26.4315 11.1902 26.2732 10.5735 25.8565 10.1485Z"
+                                    fill="white" />
+                                <path opacity="0.4"
+                                    d="M15.877 23.9519C16.1203 24.196 16.1203 24.5919 15.877 24.836L14.7386 25.9735C14.617 26.096 14.457 26.1569 14.297 26.1569C14.137 26.1569 13.977 26.096 13.8553 25.9735C13.6111 25.7294 13.6111 25.3344 13.8553 25.0902L14.9928 23.9519C15.237 23.7085 15.6328 23.7085 15.877 23.9519ZM15.2239 20.7952C15.4672 21.0394 15.4672 21.4352 15.2239 21.6794L14.0856 22.8169C13.9639 22.9394 13.8039 23.0002 13.6439 23.0002C13.4839 23.0002 13.3239 22.9394 13.2022 22.8169C12.9581 22.5727 12.9581 22.1777 13.2022 21.9335L14.3397 20.7952C14.5839 20.5519 14.9797 20.5519 15.2239 20.7952ZM12.0896 19.8015C12.3329 20.0457 12.3329 20.4415 12.0896 20.6857L10.9512 21.8232C10.8296 21.9457 10.6696 22.0065 10.5096 22.0065C10.3496 22.0065 10.1896 21.9457 10.0679 21.8232C9.82372 21.579 9.82372 21.184 10.0679 20.9399L11.2054 19.8015C11.4496 19.5582 11.8454 19.5582 12.0896 19.8015Z"
+                                    fill="white" />
+                            </svg>
+                        </span></button>
+
+                </div>
+                <!-- David Brown -->
+                <div class="founding-emp-1">
+                    <div class="founding-img">
+                        <img src="assets/images/emp3.png" alt="founding member 1">
+                        <svg width="60" height="40" viewBox="0 0 76 52" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-logo">
+                            <rect width="76" height="52" rx="26" fill="#703BF7" />
+                            <path
+                                d="M33.5502 35.75C42.6045 35.75 47.5583 28.2467 47.5583 21.7419C47.5583 21.5309 47.5536 21.3153 47.5442 21.1044C48.5079 20.4075 49.3395 19.5443 50 18.5553C49.1025 18.9546 48.1496 19.2154 47.1739 19.3287C48.2013 18.7129 48.9705 17.7455 49.3391 16.6058C48.3726 17.1786 47.3156 17.5826 46.2134 17.8006C45.4708 17.0116 44.489 16.4891 43.4197 16.3141C42.3504 16.139 41.2532 16.3211 40.2977 16.8321C39.3423 17.3431 38.5818 18.1547 38.1338 19.1413C37.6859 20.1279 37.5754 21.2346 37.8195 22.2903C35.8625 22.1921 33.9479 21.6837 32.2 20.7981C30.452 19.9125 28.9097 18.6694 27.673 17.1495C27.0444 18.2332 26.8521 19.5156 27.135 20.7361C27.418 21.9565 28.1551 23.0234 29.1964 23.72C28.4146 23.6952 27.65 23.4847 26.9656 23.1059V23.1669C26.9649 24.3041 27.3581 25.4066 28.0783 26.2868C28.7985 27.167 29.8013 27.7706 30.9162 27.995C30.1921 28.1931 29.432 28.222 28.6948 28.0794C29.0095 29.0574 29.6216 29.9129 30.4458 30.5263C31.27 31.1398 32.2651 31.4806 33.2923 31.5012C31.5484 32.8711 29.3942 33.6141 27.1766 33.6106C26.7833 33.61 26.3904 33.5859 26 33.5384C28.2529 34.9837 30.8735 35.7514 33.5502 35.75Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="founding-member-info">
+                        <h3>David Brown</h3>
+                        <span>Head of Property Management</span>
+                    </div>
+                    <button>Say Hello 👋 <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="18" fill="#703BF7" />
+                                <path
+                                    d="M25.8565 10.1485C25.4398 9.72271 24.8232 9.56521 24.2482 9.73187L10.8398 13.606C10.2332 13.7744 9.80318 14.2552 9.68734 14.8652C9.56901 15.4869 9.98234 16.2769 10.5223 16.6069L14.7148 19.1669C15.1448 19.4302 15.6998 19.3644 16.0557 19.0077L20.8565 14.2069C21.0982 13.956 21.4982 13.956 21.7398 14.2069C21.9815 14.4477 21.9815 14.8402 21.7398 15.0902L16.9307 19.891C16.574 20.2477 16.5073 20.801 16.7698 21.2319L19.3315 25.4402C19.6315 25.9394 20.1482 26.2235 20.7148 26.2235C20.7815 26.2235 20.8565 26.2235 20.9232 26.2144C21.5732 26.1319 22.0898 25.6894 22.2815 25.0644L26.2565 11.7569C26.4315 11.1902 26.2732 10.5735 25.8565 10.1485Z"
+                                    fill="white" />
+                                <path opacity="0.4"
+                                    d="M15.877 23.9519C16.1203 24.196 16.1203 24.5919 15.877 24.836L14.7386 25.9735C14.617 26.096 14.457 26.1569 14.297 26.1569C14.137 26.1569 13.977 26.096 13.8553 25.9735C13.6111 25.7294 13.6111 25.3344 13.8553 25.0902L14.9928 23.9519C15.237 23.7085 15.6328 23.7085 15.877 23.9519ZM15.2239 20.7952C15.4672 21.0394 15.4672 21.4352 15.2239 21.6794L14.0856 22.8169C13.9639 22.9394 13.8039 23.0002 13.6439 23.0002C13.4839 23.0002 13.3239 22.9394 13.2022 22.8169C12.9581 22.5727 12.9581 22.1777 13.2022 21.9335L14.3397 20.7952C14.5839 20.5519 14.9797 20.5519 15.2239 20.7952ZM12.0896 19.8015C12.3329 20.0457 12.3329 20.4415 12.0896 20.6857L10.9512 21.8232C10.8296 21.9457 10.6696 22.0065 10.5096 22.0065C10.3496 22.0065 10.1896 21.9457 10.0679 21.8232C9.82372 21.579 9.82372 21.184 10.0679 20.9399L11.2054 19.8015C11.4496 19.5582 11.8454 19.5582 12.0896 19.8015Z"
+                                    fill="white" />
+                            </svg>
+                        </span></button>
+                </div>
+                <!--Michael Turner  -->
+                <div class="founding-emp-1">
+                    <div class="founding-img">
+                        <img src="assets/images/emp4.png" alt="founding member 1">
+                        <svg width="60" height="40" viewBox="0 0 76 52" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-logo">
+                            <rect width="76" height="52" rx="26" fill="#703BF7" />
+                            <path
+                                d="M33.5502 35.75C42.6045 35.75 47.5583 28.2467 47.5583 21.7419C47.5583 21.5309 47.5536 21.3153 47.5442 21.1044C48.5079 20.4075 49.3395 19.5443 50 18.5553C49.1025 18.9546 48.1496 19.2154 47.1739 19.3287C48.2013 18.7129 48.9705 17.7455 49.3391 16.6058C48.3726 17.1786 47.3156 17.5826 46.2134 17.8006C45.4708 17.0116 44.489 16.4891 43.4197 16.3141C42.3504 16.139 41.2532 16.3211 40.2977 16.8321C39.3423 17.3431 38.5818 18.1547 38.1338 19.1413C37.6859 20.1279 37.5754 21.2346 37.8195 22.2903C35.8625 22.1921 33.9479 21.6837 32.2 20.7981C30.452 19.9125 28.9097 18.6694 27.673 17.1495C27.0444 18.2332 26.8521 19.5156 27.135 20.7361C27.418 21.9565 28.1551 23.0234 29.1964 23.72C28.4146 23.6952 27.65 23.4847 26.9656 23.1059V23.1669C26.9649 24.3041 27.3581 25.4066 28.0783 26.2868C28.7985 27.167 29.8013 27.7706 30.9162 27.995C30.1921 28.1931 29.432 28.222 28.6948 28.0794C29.0095 29.0574 29.6216 29.9129 30.4458 30.5263C31.27 31.1398 32.2651 31.4806 33.2923 31.5012C31.5484 32.8711 29.3942 33.6141 27.1766 33.6106C26.7833 33.61 26.3904 33.5859 26 33.5384C28.2529 34.9837 30.8735 35.7514 33.5502 35.75Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="founding-member-info">
+                        <h3>Michael Turner</h3>
+                        <span>Legal Counsel</span>
+                    </div>
+                    <button>Say Hello 👋 <span><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="18" fill="#703BF7" />
+                                <path
+                                    d="M25.8565 10.1485C25.4398 9.72271 24.8232 9.56521 24.2482 9.73187L10.8398 13.606C10.2332 13.7744 9.80318 14.2552 9.68734 14.8652C9.56901 15.4869 9.98234 16.2769 10.5223 16.6069L14.7148 19.1669C15.1448 19.4302 15.6998 19.3644 16.0557 19.0077L20.8565 14.2069C21.0982 13.956 21.4982 13.956 21.7398 14.2069C21.9815 14.4477 21.9815 14.8402 21.7398 15.0902L16.9307 19.891C16.574 20.2477 16.5073 20.801 16.7698 21.2319L19.3315 25.4402C19.6315 25.9394 20.1482 26.2235 20.7148 26.2235C20.7815 26.2235 20.8565 26.2235 20.9232 26.2144C21.5732 26.1319 22.0898 25.6894 22.2815 25.0644L26.2565 11.7569C26.4315 11.1902 26.2732 10.5735 25.8565 10.1485Z"
+                                    fill="white" />
+                                <path opacity="0.4"
+                                    d="M15.877 23.9519C16.1203 24.196 16.1203 24.5919 15.877 24.836L14.7386 25.9735C14.617 26.096 14.457 26.1569 14.297 26.1569C14.137 26.1569 13.977 26.096 13.8553 25.9735C13.6111 25.7294 13.6111 25.3344 13.8553 25.0902L14.9928 23.9519C15.237 23.7085 15.6328 23.7085 15.877 23.9519ZM15.2239 20.7952C15.4672 21.0394 15.4672 21.4352 15.2239 21.6794L14.0856 22.8169C13.9639 22.9394 13.8039 23.0002 13.6439 23.0002C13.4839 23.0002 13.3239 22.9394 13.2022 22.8169C12.9581 22.5727 12.9581 22.1777 13.2022 21.9335L14.3397 20.7952C14.5839 20.5519 14.9797 20.5519 15.2239 20.7952ZM12.0896 19.8015C12.3329 20.0457 12.3329 20.4415 12.0896 20.6857L10.9512 21.8232C10.8296 21.9457 10.6696 22.0065 10.5096 22.0065C10.3496 22.0065 10.1896 21.9457 10.0679 21.8232C9.82372 21.579 9.82372 21.184 10.0679 20.9399L11.2054 19.8015C11.4496 19.5582 11.8454 19.5582 12.0896 19.8015Z"
+                                    fill="white" />
+                            </svg>
+                        </span></button>
+                </div>
+
+            </div>
+        </section>
+        <!-- section 6  -->
+        <!-- our valued client  -->
+        <section>
+            <div class="our-valued-banner">
+                <img src="assets/images/abstract-star.png" alt="abstract star">
+                <h2>Our Valued Clients</h2>
+                <span>At Estatein, we have had the privilege of working with a diverse range of clients across various
+                    industries. Here are some of the clients we've had the pleasure of serving</span>
+                <div class="swiper mySwiper">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="our-valued-card">
+                                <div class="our-valued-text">
+                                    <div class="since">
+                                        <span>Since 2019</span>
+                                        <h3>ABC Corporation</h3>
+                                    </div>
+                                    <div class="banner">
+                                        <a href="#" class='butn butn__new visit-website'><span>Visit Website</span></a>
+                                    </div>
+                                </div>
+                                <div class="dom-cat">
+                                    <div class="domain">
+                                        <div class="domain-text">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M3.75 6.5C3.75 5.25736 4.75736 4.25 6 4.25H8.25C9.49264 4.25 10.5 5.25736 10.5 6.5V8.75C10.5 9.99264 9.49264 11 8.25 11H6C4.75736 11 3.75 9.99264 3.75 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M3.75 16.25C3.75 15.0074 4.75736 14 6 14H8.25C9.49264 14 10.5 15.0074 10.5 16.25V18.5C10.5 19.7426 9.49264 20.75 8.25 20.75H6C4.75736 20.75 3.75 19.7426 3.75 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 6.5C13.5 5.25736 14.5074 4.25 15.75 4.25H18C19.2426 4.25 20.25 5.25736 20.25 6.5V8.75C20.25 9.99264 19.2426 11 18 11H15.75C14.5074 11 13.5 9.99264 13.5 8.75V6.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M13.5 16.25C13.5 15.0074 14.5074 14 15.75 14H18C19.2426 14 20.25 15.0074 20.25 16.25V18.5C20.25 19.7426 19.2426 20.75 18 20.75H15.75C14.5074 20.75 13.5 19.7426 13.5 18.5V16.25Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Domain</span>
+                                        </div>
+                                        <h3>Commercial Real Estate</h3>
+                                    </div>
+
+                                    <div class="category">
+                                        <div class="category-text">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.5 14L15 2.75L12.75 11H21L10.5 22.25L12.75 14H4.5Z"
+                                                    stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>Category</span>
+                                        </div>
+                                        <h3>Luxury Home Development</h3>
+                                    </div>
+                                </div>
+                                <div class="what-they-wrapper">
+                                    <span>What They Said 🤗</span>
+                                    <p>Estatein's expertise in finding the perfect office space for our expanding
+                                        operations
+                                        was
+                                        invaluable. They truly understand our business needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-utility">
+                        <!--  -->
+                        <div class="swiper-btn">
+                            <div class="swiper-pagination-counting"></div>
+                            
+                            <div class="button-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6" height="20px" width="20px">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                                </svg>
+                            </div>
+                            <div class="button-next">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6" height="20px" width="20px">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 7 -->
+        <!-- Start Your Real Estate Journey Today  -->
+        <section>
+            <div class="last-section-banner">
+                <div class="last-section-text">
+                    <h2>Start Your Real Estate Journey Today</h2>
+                    <span>Your dream property is just a click away. Whether you're looking for a new home, a strategic
+                        investment, or expert real estate advice, Estatein is here to assist you every step of the way.
+                        Take
+                        the first step towards your real estate goals and explore our available properties or get in
+                        touch
+                        with our team for personalized assistance.</span>
+                </div>
+                <div class="last-section-btn">
+                    <button>Explore Properties</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- footer -->
+        <footer>
+            <div class="main-footer">
+                <div class="logo">
+                    <div class="logo-section">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 48C10.7467 48 0 37.2533 0 24H24V48Z" fill="#703BF7" />
+                            <path d="M0 0C13.2533 0 24 10.7467 24 24H0V0Z" fill="#703BF7" />
+                            <path d="M24 48C37.2533 48 48 37.2533 48 24H24V48Z" fill="#703BF7" />
+                            <path d="M48 24C48 10.7467 37.2533 0 24 0V24H48Z" fill="#703BF7" />
+                        </svg>
+                        <h2>Estatein</h2>
+                    </div>
+                    <div class="email-section">
+                        <input type="email" placeholder="Enter yoyr email" class="email-input">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="email-svg">
+                            <path
+                                d="M17 7H18V8C18 8.26522 18.1054 8.51957 18.2929 8.70711C18.4804 8.89464 18.7348 9 19 9C19.2652 9 19.5196 8.89464 19.7071 8.70711C19.8946 8.51957 20 8.26522 20 8V7H21C21.2652 7 21.5196 6.89464 21.7071 6.70711C21.8946 6.51957 22 6.26522 22 6C22 5.73478 21.8946 5.48043 21.7071 5.29289C21.5196 5.10536 21.2652 5 21 5H20V4C20 3.73478 19.8946 3.48043 19.7071 3.29289C19.5196 3.10536 19.2652 3 19 3C18.7348 3 18.4804 3.10536 18.2929 3.29289C18.1054 3.48043 18 3.73478 18 4V5H17C16.7348 5 16.4804 5.10536 16.2929 5.29289C16.1054 5.48043 16 5.73478 16 6C16 6.26522 16.1054 6.51957 16.2929 6.70711C16.4804 6.89464 16.7348 7 17 7ZM21 11C20.7348 11 20.4804 11.1054 20.2929 11.2929C20.1054 11.4804 20 11.7348 20 12V18C20 18.2652 19.8946 18.5196 19.7071 18.7071C19.5196 18.8946 19.2652 19 19 19H5C4.73478 19 4.48043 18.8946 4.29289 18.7071C4.10536 18.5196 4 18.2652 4 18V8.41L9.88 14.3C10.4425 14.8618 11.205 15.1774 12 15.1774C12.795 15.1774 13.5575 14.8618 14.12 14.3L16.59 11.83C16.7783 11.6417 16.8841 11.3863 16.8841 11.12C16.8841 10.8537 16.7783 10.5983 16.59 10.41C16.4017 10.2217 16.1463 10.1159 15.88 10.1159C15.6137 10.1159 15.3583 10.2217 15.17 10.41L12.7 12.88C12.5131 13.0632 12.2618 13.1659 12 13.1659C11.7382 13.1659 11.4869 13.0632 11.3 12.88L5.41 7H13C13.2652 7 13.5196 6.89464 13.7071 6.70711C13.8946 6.51957 14 6.26522 14 6C14 5.73478 13.8946 5.48043 13.7071 5.29289C13.5196 5.10536 13.2652 5 13 5H5C4.20435 5 3.44129 5.31607 2.87868 5.87868C2.31607 6.44129 2 7.20435 2 8V18C2 18.7956 2.31607 19.5587 2.87868 20.1213C3.44129 20.6839 4.20435 21 5 21H19C19.7956 21 20.5587 20.6839 21.1213 20.1213C21.6839 19.5587 22 18.7956 22 18V12C22 11.7348 21.8946 11.4804 21.7071 11.2929C21.5196 11.1054 21.2652 11 21 11Z"
+                                fill="#999999" />
+                        </svg>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="arrow-svg">
+                            <path
+                                d="M26.7843 3.22287C26.1593 2.58412 25.2343 2.34787 24.3718 2.59787L4.25928 8.40912C3.34928 8.66162 2.70428 9.38287 2.53053 10.2979C2.35303 11.2304 2.97303 12.4154 3.78303 12.9104L10.0718 16.7504C10.7168 17.1454 11.5493 17.0466 12.083 16.5116L19.2843 9.31037C19.6468 8.93412 20.2468 8.93412 20.6093 9.31037C20.9718 9.67162 20.9718 10.2604 20.6093 10.6354L13.3955 17.8366C12.8605 18.3716 12.7605 19.2016 13.1543 19.8479L16.9968 26.1604C17.4468 26.9091 18.2218 27.3354 19.0718 27.3354C19.1718 27.3354 19.2843 27.3354 19.3843 27.3216C20.3593 27.1979 21.1343 26.5341 21.4218 25.5966L27.3843 5.63537C27.6468 4.78537 27.4093 3.86037 26.7843 3.22287Z"
+                                fill="white" />
+                            <path opacity="0.4"
+                                d="M11.8145 23.928C12.1795 24.2942 12.1795 24.888 11.8145 25.2542L10.107 26.9605C9.92448 27.1442 9.68448 27.2355 9.44448 27.2355C9.20448 27.2355 8.96448 27.1442 8.78198 26.9605C8.41573 26.5942 8.41573 26.0017 8.78198 25.6355L10.4882 23.928C10.8545 23.563 11.4482 23.563 11.8145 23.928ZM10.8349 19.193C11.1999 19.5592 11.1999 20.153 10.8349 20.5192L9.12736 22.2255C8.94486 22.4092 8.70486 22.5005 8.46486 22.5005C8.22486 22.5005 7.98486 22.4092 7.80236 22.2255C7.43611 21.8592 7.43611 21.2667 7.80236 20.9005L9.50861 19.193C9.87486 18.828 10.4686 18.828 10.8349 19.193ZM6.13336 17.7025C6.49836 18.0687 6.49836 18.6625 6.13336 19.0287L4.42586 20.735C4.24336 20.9187 4.00336 21.01 3.76336 21.01C3.52336 21.01 3.28336 20.9187 3.10086 20.735C2.73461 20.3687 2.73461 19.7762 3.10086 19.41L4.80711 17.7025C5.17336 17.3375 5.76711 17.3375 6.13336 17.7025Z"
+                                fill="white" />
+                        </svg>
+
+                    </div>
+                </div>
+                <!-- home -->
+                <div class="footer-section-all">
+                    <div class="footer-sections">
+                        <ul class="footer-ul">
+                            <span>Home</span>
+                            <li>Hero Section</li>
+                            <li>Features</li>
+                            <li>Properties</li>
+                            <li>Testimonials</li>
+                            <li>FAQ’s</li>
+                        </ul>
+                    </div>
+                    <div class="footer-sections">
+                        <ul class="footer-ul">
+                            <span>About us</span>
+                            <li>Our Story</li>
+                            <li>Our Works</li>
+                            <li>How It Works</li>
+                            <li>Our Team</li>
+                            <li>Our Clients</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-sections">
+                        <ul class="footer-ul">
+                            <span>Properties</span>
+                            <li>Portfolio</li>
+                            <li>Categories</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-sections">
+                        <ul class="footer-ul">
+                            <span>Services</span>
+                            <li>Valuation Mastery</li>
+                            <li>Strategic Marketing</li>
+                            <li>Negotiation Wizardry</li>
+                            <li>Closing Success</li>
+                            <li>Property Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-sections">
+                        <ul class="footer-ul">
+                            <span>Contact Form</span>
+                            <li>Contact Form</li>
+                            <li>Our Offices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="rights-section">
+                    <span>@2023 Estatein. All Rights Reserved.</span>
+                    <span>Terms & Conditions</span>
+                </div>
+                <div class="footer-logo">
+                    <!-- facebook -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="social-media">
+                        <path
+                            d="M15.7442 3.98403H18.0002V0.168036C16.9079 0.0544523 15.8104 -0.00162514 14.7122 3.58369e-05C11.4482 3.58369e-05 9.21622 1.99203 9.21622 5.64003V8.78402H5.53223V13.056H9.21622V24H13.6322V13.056H17.3042L17.8562 8.78402H13.6322V6.06003C13.6322 4.80003 13.9682 3.98403 15.7442 3.98403Z"
+                            fill="white" />
+                    </svg>
+                    <!-- /facebook -->
+                    <!-- linkedin -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="social-media">
+                        <path
+                            d="M20.4696 2.00014H3.52957C3.33915 1.9975 3.15007 2.03239 2.97314 2.10282C2.7962 2.17326 2.63487 2.27786 2.49837 2.41065C2.36186 2.54344 2.25285 2.70182 2.17756 2.87675C2.10227 3.05167 2.06218 3.23972 2.05957 3.43014V20.5701C2.06218 20.7606 2.10227 20.9486 2.17756 21.1235C2.25285 21.2985 2.36186 21.4568 2.49837 21.5896C2.63487 21.7224 2.7962 21.827 2.97314 21.8975C3.15007 21.9679 3.33915 22.0028 3.52957 22.0001H20.4696C20.66 22.0028 20.8491 21.9679 21.026 21.8975C21.2029 21.827 21.3643 21.7224 21.5008 21.5896C21.6373 21.4568 21.7463 21.2985 21.8216 21.1235C21.8969 20.9486 21.937 20.7606 21.9396 20.5701V3.43014C21.937 3.23972 21.8969 3.05167 21.8216 2.87675C21.7463 2.70182 21.6373 2.54344 21.5008 2.41065C21.3643 2.27786 21.2029 2.17326 21.026 2.10282C20.8491 2.03239 20.66 1.9975 20.4696 2.00014ZM8.08957 18.7401H5.08957V9.74014H8.08957V18.7401ZM6.58957 8.48014C6.17583 8.48014 5.77904 8.31578 5.48648 8.02323C5.19393 7.73067 5.02957 7.33388 5.02957 6.92014C5.02957 6.5064 5.19393 6.10961 5.48648 5.81705C5.77904 5.5245 6.17583 5.36014 6.58957 5.36014C6.80927 5.33522 7.03175 5.35699 7.24245 5.42402C7.45314 5.49105 7.64731 5.60183 7.81223 5.7491C7.97715 5.89637 8.1091 6.07682 8.19944 6.27862C8.28979 6.48043 8.33649 6.69904 8.33649 6.92014C8.33649 7.14124 8.28979 7.35985 8.19944 7.56166C8.1091 7.76346 7.97715 7.94391 7.81223 8.09118C7.64731 8.23845 7.45314 8.34923 7.24245 8.41626C7.03175 8.48329 6.80927 8.50505 6.58957 8.48014ZM18.9096 18.7401H15.9096V13.9101C15.9096 12.7001 15.4796 11.9101 14.3896 11.9101C14.0522 11.9126 13.7238 12.0184 13.4484 12.2133C13.1731 12.4082 12.9641 12.6828 12.8496 13.0001C12.7713 13.2352 12.7374 13.4827 12.7496 13.7301V18.7301H9.74957C9.74957 18.7301 9.74957 10.5501 9.74957 9.73014H12.7496V11.0001C13.0221 10.5272 13.4185 10.1377 13.896 9.87334C14.3735 9.60902 14.9141 9.47999 15.4596 9.50014C17.4596 9.50014 18.9096 10.7901 18.9096 13.5601V18.7401Z"
+                            fill="white" />
+                    </svg>
+                    <!-- /linkedin -->
+                    <!-- twitter -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="social-media">
+                        <path
+                            d="M22 5.80021C21.2483 6.1263 20.4534 6.34187 19.64 6.44021C20.4982 5.92753 21.1413 5.12099 21.45 4.17021C20.6436 4.65027 19.7608 4.98851 18.84 5.17021C18.2245 4.50278 17.405 4.05851 16.5098 3.90706C15.6147 3.75562 14.6945 3.90557 13.8938 4.3334C13.093 4.76123 12.4569 5.44274 12.0852 6.27105C11.7135 7.09935 11.6273 8.0276 11.84 8.91021C10.2094 8.82774 8.61444 8.40316 7.15865 7.66407C5.70287 6.92498 4.41885 5.8879 3.39 4.62021C3.02914 5.25038 2.83952 5.96403 2.84 6.69021C2.83872 7.36459 3.00422 8.02883 3.32176 8.62377C3.63929 9.21872 4.09902 9.72592 4.66 10.1002C4.00798 10.0825 3.36989 9.90751 2.8 9.59021V9.64021C2.80489 10.5851 3.13599 11.4993 3.73731 12.2282C4.33864 12.957 5.17326 13.4559 6.1 13.6402C5.74326 13.7488 5.37287 13.806 5 13.8102C4.74189 13.8072 4.48442 13.7838 4.23 13.7402C4.49391 14.553 5.00462 15.2634 5.69107 15.7724C6.37753 16.2814 7.20558 16.5638 8.06 16.5802C6.6172 17.7155 4.83588 18.3351 3 18.3402C2.66574 18.3413 2.33174 18.3213 2 18.2802C3.87443 19.4905 6.05881 20.1329 8.29 20.1302C9.82969 20.1462 11.3571 19.8552 12.7831 19.2743C14.2091 18.6934 15.505 17.8341 16.5952 16.7467C17.6854 15.6593 18.548 14.3656 19.1326 12.9411C19.7172 11.5166 20.012 9.98994 20 8.45021C20 8.28021 20 8.10021 20 7.92021C20.7847 7.33502 21.4615 6.61763 22 5.80021Z"
+                            fill="white" />
+                    </svg>
+                    <!-- /twitter -->
+                    <!-- youtube -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="social-media">
+                        <path
+                            d="M23 9.70998C23.0495 8.27864 22.7365 6.858 22.09 5.57998C21.6514 5.05558 21.0427 4.70169 20.37 4.57998C17.5875 4.32751 14.7936 4.22403 12 4.26998C9.21667 4.22194 6.43274 4.32208 3.66003 4.56998C3.11185 4.6697 2.60454 4.92683 2.20003 5.30998C1.30003 6.13998 1.20003 7.55998 1.10003 8.75998C0.954939 10.9175 0.954939 13.0824 1.10003 15.24C1.12896 15.9154 1.22952 16.5858 1.40003 17.24C1.5206 17.745 1.76455 18.2123 2.11003 18.6C2.51729 19.0034 3.03641 19.2752 3.60003 19.38C5.75594 19.6461 7.92824 19.7564 10.1 19.71C13.6 19.76 16.67 19.71 20.3 19.43C20.8775 19.3316 21.4112 19.0595 21.83 18.65C22.11 18.3699 22.3191 18.0271 22.44 17.65C22.7977 16.5526 22.9733 15.4041 22.96 14.25C23 13.69 23 10.31 23 9.70998ZM9.74003 14.85V8.65998L15.66 11.77C14 12.69 11.81 13.73 9.74003 14.85Z"
+                            fill="white" />
+                    </svg>
+                    <!-- /youtube -->
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <!-- swiper slides -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- js flie -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
