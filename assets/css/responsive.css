@@ -13,16 +13,26 @@
         font-size: 12px;
     }
 } */
+
+
 @media (max-width:480px) {
     .value-wrapper-banner {
         padding: 20px;
     }
-    
-.butn__new {
-    font-size: 12px;
-    padding: 13px;
-    margin-left: 15px;
-}
+
+    .butn__new {
+        font-size: 12px;
+        padding: 13px;
+        margin-left: 15px;
+    }
+    .box-group .client {
+        flex: 1 1 calc(50% -10px);
+        text-align: center;
+    }
+    .box-group {
+        flex-wrap: wrap;
+    }
+
 
 }
 
@@ -40,6 +50,8 @@
     .contact-us {
         text-align: center;
     }
+
+  
 
     .banner-content img {
         position: absolute;
@@ -65,16 +77,19 @@
         /* width: 100%; */
         text-align: left;
         padding-left: 10px;
+        font-size: 12px;
 
     }
 
     .toggle-btn {
         display: block;
         z-index: 1001;
+
     }
 
     .container {
         position: relative;
+        padding: 10px;
     }
 
     .show {
@@ -110,26 +125,27 @@
         background-color: var(--grey10);
 
     }
-    
-/* .nav-ul li{
+
+    /* .nav-ul li{
     width: 100%;
 }  */
-.about-us{
-    /* width: 100%;
+    .about-us {
+        /* width: 100%;
      */
-     margin-left: 0px;
+        margin-left: 0px;
 
-}
+    }
 
-.icon img {
-    width: 40px;
-    height: 40px;
-    /* padding-right: 10px; */
-}
-.icon p {
-    font-size: 20px;
-    /* font-weight: 500; */
-}
+    .icon img {
+        width: 30px;
+        height: 30px;
+        /* padding-right: 10px; */
+    }
+
+    .icon p {
+        font-size: 20px;
+        /* font-weight: 500; */
+    }
 
     .contact-us {
         margin-right: 10px;
@@ -193,7 +209,10 @@
 
     .trust {
         border: none;
+        padding: 10px 0;
     }
+
+  
 
     .achivement-boxes-grp {
         flex-direction: column;
@@ -201,7 +220,8 @@
     }
 
     .achivement-banner,
-    .navigation-banner, .founding-team-banner {
+    .navigation-banner,
+    .founding-team-banner {
         padding: 80px 20px;
     }
 
@@ -255,7 +275,7 @@
     .trust,
     .excellence {
         border-bottom: 1px solid var(--grey15);
-        padding: 20px 0;
+        padding: 10px 0 20px 0;
     }
 
     .footer-section-all {
@@ -327,6 +347,10 @@
     padding: 13px;
     /* margin-left: 10px; */
 }
+
+/* .footer-sections{
+    padding: 0px 10px;
+} */
 
 .main-footer {
     display: flex;

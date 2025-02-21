@@ -229,6 +229,7 @@ a {
     background-color: var(--grey15);
     border: none;
     display: none;
+    
     padding: 0;
     z-index: 1000;
 }
@@ -277,7 +278,7 @@ a {
 /* client boxes */
 .box-group {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     left: 20px;
     gap: 15px;
@@ -390,7 +391,7 @@ padding: 0px 20px;
 .trust-combain {
     display: flex;
     margin: 0px 20px;
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 1px solid var(--grey15);
 }
 
