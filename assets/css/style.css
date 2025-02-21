@@ -290,6 +290,7 @@ a {
     border: 1px solid var(--grey15);
     padding: 15px;
     /* width: 100px;
+
     height: 100px; */
     flex: 1;
     display: flex;

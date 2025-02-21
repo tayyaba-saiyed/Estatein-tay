@@ -28,9 +28,16 @@
     .box-group .client {
         flex: 1 1 calc(50% -10px);
         text-align: center;
+        
     }
     .box-group {
         flex-wrap: wrap;
+    }
+    .client h2{
+        font-size: 24px;
+    }
+    .client span{
+        font-size: 14px;
     }
 
 
