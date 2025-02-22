@@ -316,8 +316,22 @@
     }
 
     .footer-ul-all{
-        padding: 50px 0;
+        padding: 40px 0;
     }
+    .estatein-section svg{
+        width: 37px;
+        height: 37px;
+    }
+    .estatein-section{
+        padding-bottom: 20px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center  ;
+        }
+    
+}
+.footer-wrap{
+    padding: 10px 0;
 }
 .email-input{
     /* width: 100%; */
